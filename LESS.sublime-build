@@ -1,0 +1,6 @@
+{
+	"cmd": ["dotless.Compiler.exe", "$file"],
+	//add "-m", before "$file" for minified
+	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+	"selector": "source.css.less"
+}
