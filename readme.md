@@ -1,7 +1,7 @@
-LESS syntax package for Sublime Text 2
+LESS syntax and build package for Sublime Text 2
 ======================================
 
-Provides syntax highlighting for `.less` files + support for comment-toggle commands.
+Provides syntax highlighting for `.less` files + support for comment-toggle commands. Furthermore, you can build file with command+b on OSX or ctrl+b on Windows.
 
 Installing
 ----------
@@ -23,3 +23,7 @@ The "Packages" directory is located at:
     `~/.Sublime Text 2/Packages/`
 * Windows:
     `%APPDATA%/Sublime Text 2/Packages/`
+
+Building
+--------
+**Be aware:** On OSX you need lessc installed (via node.js / npm) and in your `PATH`. If you're having issues with this, look it up here [http://stackoverflow.com/questions/135688/setting-environment-variables-in-os-x](http://stackoverflow.com/questions/135688/setting-environment-variables-in-os-x).
