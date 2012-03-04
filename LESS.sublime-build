@@ -1,6 +1,5 @@
 {
-	"cmd": ["dotless.Compiler.exe", "$file"],
-	//add "-m", before "$file" for minified
-	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+	"cmd": ["/usr/local/bin/lessc", "-x", "$file"],
+	"path": "usr/local/bin",
 	"selector": "source.css.less"
 }
