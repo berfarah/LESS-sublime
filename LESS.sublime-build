@@ -1,5 +1,5 @@
 {
-	"cmd": ["/usr/local/bin/lessc", "-x", "$file"],
-	"path": "usr/local/bin",
+	"cmd": ["lessc", "$file", "${file_path}/${file_base_name}.css", "--verbose"],
+	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
 	"selector": "source.css.less"
 }
